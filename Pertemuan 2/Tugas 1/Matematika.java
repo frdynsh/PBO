@@ -2,7 +2,7 @@ package matematika;
 public class Matematika {
     int hasil;
     
-     // Method Accessor (Getter)
+     // Methode accessor
     public int getHasil() {
         return hasil;
     }
