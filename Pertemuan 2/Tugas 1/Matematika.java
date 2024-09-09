@@ -2,10 +2,12 @@ package matematika;
 public class Matematika implements InterfaceMatematika {
     int hasil;
     
-     // Methode accessor
+     // Metode accessor
     public int getHasil() {
         return hasil;
     }
+
+    // Metode Mutator dengan Parameter
     public int pertambahan(int a,int b){
         hasil = a+b;
         return hasil;
